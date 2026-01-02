@@ -8,7 +8,7 @@ const Header = () => {
                         src="https://codingfactory.aueb.gr/sites/all/themes/cf_theme/logo.png"
                         alt="CF Logo"/>
                     <nav className="text-white font-medium">
-                        <a href="#"> App</a>
+                        <a href="#">Todo App</a>
                     </nav>
                 </div>
             </header>

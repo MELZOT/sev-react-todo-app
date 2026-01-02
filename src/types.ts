@@ -15,3 +15,7 @@ export type TodoFormProps = {
     addTodo: (text: string) => void;
     inputRef: React.RefObject<HTMLInputElement | null>;
 }
+
+export type TodoListProps = {
+    todos: TodoProps[];
+}
