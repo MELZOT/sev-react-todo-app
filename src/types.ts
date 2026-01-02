@@ -5,6 +5,13 @@ export type ButtonProps = {
     addClasses?: string;
 }
 
+export type IconButtonProps = {
+    onClick?: () => void;
+    disabled?: boolean;
+    icon: React.ReactNode;
+    addClasses?: string;
+}
+
 export type TodoProps = {
     id: number;
     text: string;
@@ -18,4 +25,7 @@ export type TodoFormProps = {
 
 export type TodoListProps = {
     todos: TodoProps[];
+    editTodo: (id: number, newText: string) => void;
+    deleteTodo: (id: number) => void;
+    toggleTodo: (id: number) => void;
 }
